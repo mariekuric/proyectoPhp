@@ -1,0 +1,50 @@
+/* Última opción del navbar */
+.nav-link.green-text {
+    color: #2aa346; /* Color de letra verde */
+}
+
+/* Color de fondo personalizado del navbar */
+.bg-color-nav {
+    background-color: #353a40; /* Cambia esto al color de fondo deseado */
+}
+
+/*Tag oradores*/
+.tag{
+    padding: 0 2px;
+}
+
+/*Subrayar con puntos*/
+.dotted-underline{
+    text-decoration: underline dotted;
+}
+
+/*Agrandar la letra del placeholder*/
+textarea::placeholder{
+    font-size: 1.3em;
+}
+
+/* Color de fondo personalizado del footer */
+.bg-color-footer {
+    background-image: linear-gradient(to right,rgb(28,54,67),rgb(30,83,114)); /*color degradado de izquierda a derecha*/
+}
+
+/*Color de fondo del botón*/
+.bg-btn-color{
+    background-color: rgb(150,201,62);
+}
+
+.bg-btn-color:hover{
+    background-color: rgb(129, 176, 49);
+
+}
+
+.event{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-15%, -15%);
+}
+
+.image{
+    filter: brightness(0.6);;
+}
