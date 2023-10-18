@@ -249,6 +249,97 @@
     </div>
     <!--fin form grid-->
 
+
+ <!--inicio comprar tickets-->
+    <div id="comprar_tickets" class="container px-5">
+      <div class="row">
+        <div class="col p-1">
+          <div class="card rounded-0 border-2 border-primary">
+            <div class="card-body">
+              <h5 class="card-title text-center">Estudiante</h5>
+              <p class="card-text text-center">Tienen un descuento</p>
+              <p class="card-text text-center fw-bold">80%</p>
+              <p class="card-text text-center small">* presentar documentación</p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-1">
+          <div class="card rounded-0 border-2 border-info ">
+            <div class="card-body">
+              <h5 class="card-title text-center">Trainee</h5>
+              <p class="card-text text-center">Tienen un descuento</p>
+              <p class="card-text text-center fw-bold">50%</p>
+              <p class="card-text text-center small">* presentar documentación</p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-1">
+          <div class="card rounded-0 border-2 border-warning">
+            <div class="card-body">
+              <h5 class="card-title text-center">Junior</h5>
+              <p class="card-text text-center">Tienen un descuento</p>
+              <p class="card-text text-center fw-bold">15%</p>
+              <p class="card-text text-center small">* presentar documentación</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <form>
+        <div class="mb-4 mt-3 text-center">
+          <h6 class="text-muted">VENTA</h6>
+          <h3>VALOR DE TICKET $200</h3>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre"/>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" id="apellido" placeholder="Apellido"/>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <input type="email" class="form-control" id="correo" placeholder="Correo" />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col">
+              <label for="cantidad" class="form-label">Cantidad</label>
+              <input type="number" class="form-control" id="cantidad" placeholder="cantidad" />
+            </div>
+            <div class="col">
+              <label for="desplegableCategoria" class="form-label">Categoría</label>
+              <select class="form-select" id="desplegableCategoria">
+                <option value="" selected>Estudiante</option>
+                <option value="estudiante">Estudiante</option>
+                <option value="trainee">Trainee</option>
+                <option value="junior">Junior</option>
+              </select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col">
+            <div class="alert alert-primary" role="alert">
+              Total a Pagar: $
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <button type="submit" class="btn w-100 mt-2 mb-3 text-white bg-btn-color">Borrar</button>
+          </div>
+          <div class="col">
+            <button type="submit" class="btn w-100 mt-2 mb-3 text-white bg-btn-color">Resumen</button>
+          </div>
+        </div> 
+      </form>
+    </div>
+    <!--fin comprar tickets-->
+    
     <!--inicio footer-->
     <footer class="text-white bg-color-footer pt-3 pb-3">
       <div class="container">
