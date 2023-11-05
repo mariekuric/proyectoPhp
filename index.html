@@ -90,7 +90,7 @@
             <hr class="my-4" />
             <p class="lead">
                 <a class="btn btn-outline-light btn-lg" href="#ser_orador" role="button">Quiero ser orador</a>
-                <a id="comprar_tickets" class="btn btn-success btn-lg" href="#" role="button">Comprar tickets</a>
+                <a id="comprar_tickets_button" class="btn btn-success btn-lg" href="#comprar_tickets" role="button">Comprar tickets</a>
             </p>
         </div>
 
@@ -215,7 +215,7 @@
             <input
               type="text"
               class="form-control"
-              id="nombre"
+              id="nombre_orador"
               placeholder="Nombre"
             />
           </div>
@@ -223,7 +223,7 @@
             <input
               type="text"
               class="form-control"
-              id="apellido"
+              id="apellido_orador"
               placeholder="Apellido"
             />
           </div>
@@ -312,7 +312,6 @@
             <div class="col">
               <label for="desplegableCategoria" class="form-label">Categoría</label>
               <select class="form-select" id="desplegableCategoria">
-                <option value="" selected>Estudiante</option>
                 <option value="estudiante">Estudiante</option>
                 <option value="trainee">Trainee</option>
                 <option value="junior">Junior</option>
@@ -322,7 +321,7 @@
 
         <div class="row mb-3">
           <div class="col">
-            <div class="alert alert-primary" role="alert">
+            <div class="alert alert-primary" role="alert" id="totalAlert">
               Total a Pagar: $
             </div>
           </div>
@@ -330,10 +329,10 @@
 
         <div class="row">
           <div class="col">
-            <button type="submit" class="btn w-100 mt-2 mb-3 text-white bg-btn-color">Borrar</button>
+            <button type="button" class="btn w-100 mt-2 mb-3 text-white bg-btn-color">Borrar</button>
           </div>
           <div class="col">
-            <button type="submit" class="btn w-100 mt-2 mb-3 text-white bg-btn-color">Resumen</button>
+            <button type="button" class="btn w-100 mt-2 mb-3 text-white bg-btn-color btn-resumen">Resumen</button>
           </div>
         </div> 
       </form>
@@ -383,7 +382,7 @@
       </div>
     </footer>
     <!--fin footer-->
-
+    <script src="script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
